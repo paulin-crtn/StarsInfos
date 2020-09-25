@@ -1,0 +1,425 @@
+/* BASICS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background: #fffcdc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #d9a7c7, #fffcdc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #d9a7c7, #fffcdc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+i {
+    margin-right: 7px;
+}
+
+/* HEADER */
+
+a > header {
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+header .app-title h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+header .app-title p {
+    margin: 5px 0 0 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* MAIN */
+
+main {
+    min-height: calc(100vh - 200px);
+}
+
+/* Homepage */
+
+.stars-search {
+    text-align: center;
+}
+
+.stars-search h2 {
+    margin: 30px 0;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.stars-search input {
+    width: 500px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.stars-list {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.stars-list li {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.stars-list li a {
+    display: inline-block;
+    padding: 7px 12px;
+    color: #000000;
+    font-weight: 300;
+}
+
+.add-star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.add-star-container .add-star {
+    width: 75px;
+}
+
+.alert-success, .alert-error {
+    display: inline-block;
+    margin: 20px auto 10px auto;
+    padding: 10px 18px;
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #62b986;
+}
+
+.alert-error {
+    background-color: #b96262;
+}
+
+/* Show-star */
+
+.star-record {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 40px 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 0px 10px -3px #656565;
+    -webkit-box-shadow: 0px 0px 10px -3px #656565;
+    -o-box-shadow: 0px 0px 10px -3px #656565;
+    box-shadow: 0px 0px 10px -3px #656565;
+}
+
+.star-record .star-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.star-record h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.star-description {
+    margin-left: 50px;
+}
+
+.star-record p {
+    margin: 0 0 0 50px;
+    font-size: 1.15rem;
+    font-weight: 200;
+    line-height: 1.6rem;
+    word-break: break-word;
+}
+
+.star-record .buttons {
+    margin-top: 40px;
+}
+
+.star-record .buttons .btn {
+    display: block;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+/* BACK OFFICE */
+
+.star-manage-container {
+    width: 550px;
+    margin: 10px auto;
+    padding: 40px 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 0px 10px -3px #656565;
+    -webkit-box-shadow: 0px 0px 10px -3px #656565;
+    -o-box-shadow: 0px 0px 10px -3px #656565;
+    box-shadow: 0px 0px 10px -3px #656565;
+}
+
+.star-manage-container h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.star-manage-container h3 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #4f8fee;
+}
+
+.star-manage-container .buttons {
+    text-align: right;
+}
+
+.star-manage-container .buttons .btn {
+    margin-left: 7px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 120px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    padding: 40px 0;
+    background-color: #1a1a1a;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-dark {
+    color: #3a3a3a;
+    background-color: #ffffff;
+    border: 1px solid #3a3a3a;
+}
+
+.btn-info {
+    background-color: #4f8fee;
+    border: 1px solid #4f8fee;
+}
+
+.btn-danger {
+    background-color: #b96262;
+    border: 1px solid #b96262;
+}
+
+.btn-confirm {
+    background-color: #62b986;
+    border: 1px solid #62b986;
+}
+
+/* FORM */
+
+form {
+    margin-top: 30px;
+}
+
+form label {
+    display: block;
+    font-size: 1.1rem;
+}
+
+form .sub-label {
+    margin: 5px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 10px 15px;
+    border: 1px solid #a2a2a2;
+    border-radius: 5px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 140px;
+    resize: none;
+    white-space: pre-wrap;
+    scroll-behavior: auto;
+}
+
+form input[type="file"] {
+    margin: 10px 0 30px 0;
+}
+
+form .error-message {
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #b96262;
+}
+
+/* MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+}
+
+.modal-content {
+    display: inline-block;
+    margin: 15% auto;
+    padding: 50px 70px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.modal-content h1, .modal-content .buttons {
+    margin: 0;
+}
+
+.modal-content p {
+    margin: 30px auto;
+    font-weight: 300;
+}
+
+/* MEDIA QUERIES */
+/* Responsive Web Design */
+
+/* Homepage */ 
+
+@media (max-width: 800px) {
+    .stars-search input {
+        width: 300px;
+    }
+}
+
+/* Show-star */
+
+@media (max-width: 1050px) {
+    .star-record {
+        display: block;
+        width: 70%;
+    }
+    .star-record .star-profile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .star-record .star-picture {
+        margin-right: 30px;
+    }
+    .star-record h2 {
+        margin-top: 0;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    .star-record p {
+        margin: 30px 0 0 0;
+    }
+    .star-record .buttons {
+        margin: 0;
+    }
+    .star-record .buttons .btn {
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-right: 7px;
+        padding: 7px 15px;
+        text-align: center;
+    }
+    .stars-list {
+        width: 80%;
+    }
+}
+
+@media (max-width: 850px) {
+    header .app-title h1 {
+        font-size: 3rem;
+    }
+    header .app-title p {
+        font-size: 1.1rem;
+    }
+    .star-record .star-profile {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .star-record .star-picture {
+        margin: 0 auto;
+    }
+    .star-record h2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+/* Back-office */
+
+@media (max-width: 850px) {
+    .star-manage-container {
+        width: 70%;
+    }
+}
