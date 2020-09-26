@@ -1,8 +1,6 @@
 # StarsInfos
 
-## About
-
-This project was asked by an recruiter in order to test my skills on Laravel framework. I used some built-in tools like Model, View, Controller, Request, Session (for flashing messages) and Storage (for uploading files).
+This project was asked by a recruiter in order to test my skills on Laravel framework. I used some built-in tools like Model, View, Controller, Request, Session (for flashing messages) and Storage (for uploading files).
 
 ## Server Requirements
 
