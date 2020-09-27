@@ -1,6 +1,9 @@
 # StarsInfos
 
-This project was asked by a recruiter in order to test my skills on Laravel framework. I used some built-in tools like Model, View, Controller, Request, Session (for flashing messages) and Storage (for uploading files).
+This is a simple CRUD project asked by a recruiter in order to test my skills on the Laravel framework. I used some built-in tools like Model, View, Controller, Request, Session (for flashing messages) and Storage (for uploading files).
+
+![Screenshot](/screenshot-1.png)
+![Screenshot](/screenshot-2.png)
 
 ## Server Requirements
 
