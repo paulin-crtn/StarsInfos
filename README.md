@@ -4,6 +4,7 @@ This is a simple CRUD project asked by a recruiter in order to test my skills on
 
 ![Screenshot](/screenshot-1.png)
 ![Screenshot](/screenshot-2.png)
+![Screenshot](/screenshot-3.png)
 
 ## Server Requirements
 
